@@ -1,0 +1,26 @@
+{
+  "FIFO": {
+    "ref_makespan": 89.52,
+    "ref_energy": 138.36
+  },
+  "LTP": {
+    "ref_makespan": 89.52,
+    "ref_energy": 138.36
+  },
+  "STP": {
+    "ref_makespan": 89.52,
+    "ref_energy": 138.36
+  },
+  "RRFIFO": {
+    "ref_makespan": 89.52,
+    "ref_energy": 138.36
+  },
+  "RRLTP": {
+    "ref_makespan": 89.52,
+    "ref_energy": 138.36
+  },
+  "RRECA": {
+    "ref_makespan": 89.52,
+    "ref_energy": 138.36
+  }
+}

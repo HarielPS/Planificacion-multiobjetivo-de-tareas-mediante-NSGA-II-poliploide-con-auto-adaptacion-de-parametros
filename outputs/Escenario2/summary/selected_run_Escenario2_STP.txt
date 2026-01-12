@@ -1,0 +1,4 @@
+policy=STP
+selected_run_index=3
+seed=12348
+hv_gen100=11594.208000

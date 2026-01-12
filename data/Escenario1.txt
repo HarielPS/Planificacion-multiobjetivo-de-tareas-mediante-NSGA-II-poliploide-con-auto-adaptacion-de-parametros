@@ -1,0 +1,19 @@
+#tiempos por máquina (5 operaciones y 4 máquinas)
+3.5	6.7	2.5	8.2
+5.5	4.2	7.6	9
+6.1	7.3	5.5	6.7
+4.8	5.3	3.8	4.7
+3.8	3.4	4.2	3.6
+#consumo energético por máquina (5 operaciones y 4 máquinas)
+1.2	4.7	3.5	4.2
+7.5	1.5	6.6	3.5
+1.1	5.3	8.5	1.7
+7.8	3.3	8.8	9.7
+1.9	5.9	7.5	3.6
+#Trabajos 
+J1={O2,O4,O5}
+J2={O1,O3,O5}
+J3={O1,O2,O3,O4,O5}
+J4={O4,O5}
+J5={O2,O4}
+J6={O1,O2,O4,O5}

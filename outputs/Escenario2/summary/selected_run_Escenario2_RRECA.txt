@@ -1,0 +1,4 @@
+policy=RRECA
+selected_run_index=25
+seed=12370
+hv_gen100=14062.428000
