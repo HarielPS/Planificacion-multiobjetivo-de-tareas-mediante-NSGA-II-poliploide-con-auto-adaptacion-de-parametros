@@ -10,7 +10,7 @@ import numpy as np
 class Scenario:
     T: np.ndarray                 # tiempos: (num_operaciones, num_maquinas)
     E: np.ndarray                 # energía: (num_operaciones, num_maquinas)
-    jobs: Dict[int, List[int]]    # job_id -> lista de operaciones (enteros tipo 1..k)
+    jobs: Dict[int, List[int]]    # job_id -> lista de operaciones
 
     @property
     def num_machines(self) -> int:
@@ -22,7 +22,6 @@ class Scenario:
 
     @property
     def total_job_ops(self) -> int:
-        # total de operaciones considerando el desglose por trabajos
         return int(sum(len(v) for v in self.jobs.values()))
 
 

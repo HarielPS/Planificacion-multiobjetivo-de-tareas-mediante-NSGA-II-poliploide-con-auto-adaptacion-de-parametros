@@ -1,4 +1,0 @@
-policy=LTP
-selected_run_index=5
-seed=12350
-hv_gen100=4418.939200

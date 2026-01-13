@@ -5,8 +5,7 @@ import numpy as np
 Fitness = Tuple[float, float]
 
 def hypervolume(points: List[Fitness], ref: Tuple[float, float]) -> float:
-    """Hipervolumen 2D minimización.
-    Si pymoo está disponible, lo usa. Si no, usa una implementación simple asumiendo puntos no dominados.
+    """Hipervolumen de un conjunto de puntos respecto a un punto de referencia (usando pymoo)
     """
     if not points:
         return 0.0

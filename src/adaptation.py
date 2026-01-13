@@ -22,9 +22,9 @@ def measure_success(children_ranks: np.ndarray, threshold: float) -> Tuple[float
 
 
 def adapt_indices(idx_c: int, idx_m: int, success: bool) -> Tuple[int, int]:
-    """Ajusta índices de pc/pm con los sets del proyecto final.
+    """Ajuste de índices de pc/pm
 
-    - Si NO hay éxito: subimos exploración => subir mutación; si ya está al máximo, subir cruza.
+    - Si NO hay éxito: subimos exploración => subir mutación, si ya está al máximo, subir cruza.
     - Si SÍ hay éxito: bajamos mutación (explotación) y acercamos cruza al valor medio (0.8).
     """
     if not success:
@@ -35,7 +35,6 @@ def adapt_indices(idx_c: int, idx_m: int, success: bool) -> Tuple[int, int]:
     else:
         if idx_m > 0:
             idx_m -= 1
-        # llevar cruza hacia 0.8 (índice 1)
         if idx_c > 1:
             idx_c -= 1
         elif idx_c < 1:

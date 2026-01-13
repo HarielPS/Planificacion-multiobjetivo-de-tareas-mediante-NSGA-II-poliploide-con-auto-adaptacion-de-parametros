@@ -1,4 +1,0 @@
-policy=RRLTP
-selected_run_index=16
-seed=12361
-hv_gen100=4437.607200

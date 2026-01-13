@@ -18,8 +18,8 @@ class GAConfig:
     generations: int = 100
 
     # Valores iniciales (práctica 2 sugiere cruza 0.8 y varias mutaciones)
-    crossover_init_idx: int = 1  # 0.8
-    mutation_init_idx: int = 1   # 0.1
+    crossover_init_idx: int = 1 
+    mutation_init_idx: int = 1
 
     # Distribución interna del presupuesto de mutación entre 3 operadores
     # (mantenemos suma = 1.0 para repartir pm de forma consistente)
